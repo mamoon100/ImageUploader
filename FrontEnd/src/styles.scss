@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+}
+
+app-root {
+  margin: 0;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1fr auto;
+  gap: 0px;
+}
